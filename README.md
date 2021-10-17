@@ -1,4 +1,4 @@
-# run user-management-reactJS
+# setup and run user-management
 
 1. npm install
 2. npm start
