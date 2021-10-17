@@ -20,11 +20,11 @@ const UserDetails = ({ id } : Props) => {
         }).then((response) => {
             setDetails(response.data);
         });
-    }, []);
+    }, [id]);
         
     return (
         <div>
-            <img src={details.avatar}></img>
+            <img alt="" src={details.avatar}></img>
             <div>ID - {details.id} </div>
             <div>FIRST NAME - {details.first_name} </div>
             <div>LAST NAME - {details.last_name} </div>
