@@ -40,7 +40,7 @@ const UserList : FC = () => {
                     {users.map(({ id, avatar, first_name, last_name, email}) => (
                         <tr key={id}>
                             <td>{id}</td>
-                            <td><img src={avatar} width="75" height="75"></img> {first_name} {last_name}</td>
+                            <td><img alt="" src={avatar} width="75" height="75"></img> {first_name} {last_name}</td>
                             <td>{email}</td>
                             <td>
                                 <button onClick={() => showUserDetails(id)}>
